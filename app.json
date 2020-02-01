@@ -9,6 +9,25 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/icon_component.png",
+        "pagePath": "pages/index/index", 
+        "text": "物资信息"
+      },
+      {
+        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/icon_API.png",
+        "pagePath": "pages/logs/logs",
+        "text": "需求发布"
+      }
+    ]
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
